@@ -1,4 +1,4 @@
-##🎨 RGBA Generator
+## 🎨 RGBA Generator
 
 This project is a RGBA Generator.
 
