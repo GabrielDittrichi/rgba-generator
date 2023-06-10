@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <title>Gerador de Cores RGB</title>
+</head>
+<body onload="gerarCor()">
+    <div class="container">
+        <div class="content">
+        <h1>Gerador de Cores RGB</h1>
+        <div id="cor"></div>
+    <div class="input-range">
+        <input type="range" onchange="gerarCor()" id="red" min="0" max="255" value="0"> <span id="txtRed">R: 0</span>
+        <input type="range" onchange="gerarCor()" id="green" min="0" max="255" value="0"> <span id="txtGreen">G: 0</span>
+        <input type="range" onchange="gerarCor()" id="blue" min="0" max="255" value="0"> <span id="txtBlue">B: 0</span>
+        <input type="range" onchange="gerarCor()" id="opt" min="0" max="10" value="10"> <span id="txtOpt">Opacidade: 10</span>
+    </div>
+    </div>
+</div>
+</body>
+</html>
