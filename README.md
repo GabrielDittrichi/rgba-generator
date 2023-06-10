@@ -1,6 +1,6 @@
-#🎨 RGBA Generator
+##🎨 RGBA Generator
 
-This project is a BMI Calculator.
+This project is a RGBA Generator.
 
 ## 💻 How to use
  
